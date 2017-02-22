@@ -1,15 +1,38 @@
 header {
-    background-color: brown;
+    background-color: black;
+    }
+.row-no-padding [class*="col-"]{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.navbar {
+    margin: 0;
+}
+.navbar a {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+div.navbar-header {
+    height: 100% !important;
+}
+.navbar li.active a {
+    font-weight: bold;
+    color: green;
+}
+.navbar ul li:hover a {
+    color: green;
+    background-color: black;
+}
+.icon-bar {
+    border: 1.5px solid white;
 }
 
-aside {
-    background-color: green;
-}
-
-main {
-    background-color: blue;
-}
-
-footer {
-    background-color: yellow;
+article {
+    background-color: black;
+    color: white;
 }
